@@ -1,0 +1,54 @@
+
+
+/*
+* REGRAS DO CONTAINER
+*/
+.home .hero{
+    min-height: 70vh;
+    background-image: url(../img/bg-home.jpeg) ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.home .hero .text1{
+    font-size: 3rem;
+    width: 45rem;
+    background: #fff;
+    padding: 1rem 2rem;
+    text-align: center;
+    opacity: .8;
+    margin-left: 2rem;
+}
+.home .hero .text2{
+    font-size: 2.5rem;
+    width: 37rem;
+    background: var(--secondary-bg-color);
+    padding: 1rem 2rem;
+    text-align: center;
+    opacity: .8;
+    color: #fff;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.home .couting{
+    min-height:30vh;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.home .couting .box{
+    margin: 2rem 4rem;
+    text-align: center;
+}
+.home .couting .box .count{
+    font-size: 7rem;
+    color: #444;
+}
+.home .couting .box h3{
+    font-size: 2rem;
+    color: var(--secondary-bg-color);
+}

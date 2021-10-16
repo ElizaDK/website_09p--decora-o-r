@@ -1,0 +1,123 @@
+/*CONFIGURACOES HOME - (mobile)  */
+@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    header{
+        padding: 2rem;
+    }
+    section{
+        padding: 2rem ;
+    }
+}
+
+/*CONFIGURACOES HEADER - #menu-bar (mobile)  */
+
+@media (max-width:768px){
+    html{
+        display:50%;
+    }
+    
+    #menu-bar{
+        display: block;
+    }
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        left: -120%;/*escondendo o menu*/
+        right: 0;
+        
+        background: #f7f7f7;
+        border-top: .1rem solid rgba(0,0,0,0.1);
+        color: var(--secundary-text-color);
+        flex-flow: column;
+        float: right;
+        width: 33rem;
+}
+
+    header .navbar a{
+       font-size: 2rem;
+       background: rgb(255, 253, 253);
+       border: .1rem solid var(--color-black);
+       border-radius: .5rem;
+       padding: 1.5rem;
+       margin: 1.5rem;
+       display: block;
+       text-align: center;
+       width: 100%;
+       color: var(--secundary-text-color);
+    }
+    header .navbar a:hover{
+        color: #c01d1d;
+        background-color: var(--primary-text-color);
+    }
+
+    /*classe active regra javascript*/
+    header .navbar.active{ 
+        left:0;
+    }
+    .fa-times{
+        transform: rotate(180deg);
+    }
+    /*END classe active regra javascript*/
+
+
+    header .icons a{
+        display: none;
+    }
+    .container{
+        padding: 80px 20px;
+
+    }
+    .container .title{
+        font-size: 20px;
+        
+    }
+    
+}
+
+@media (max-width:450px){
+    html{
+        display:50%;
+    }
+    .container{
+            padding: 80px 20px;
+    
+        }
+        .container .title{
+            font-size: 20px;
+            
+        }
+        .home .hero .text1{
+            font-size: 2rem;
+            width: 25rem;
+            
+        
+        }
+        .home .hero .text2{
+            font-size: 2rem;
+            width: 25rem;
+            
+        }
+
+}
+
+@media (max-width:400px){
+    html{
+        display:50%;
+    }
+    
+    .home .hero .text1{
+        font-size: 2rem;
+        width: 25rem;
+        
+    
+    }
+    .home .hero .text2{
+        font-size: 2rem;
+        width: 25rem;
+        
+    }
+}
+
+

@@ -1,0 +1,77 @@
+
+/*
+*SECTION - HEADER
+*/
+
+/*CONFIGURACOES HEADER - bloco*/
+
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--primary-bg-color);
+    padding: 1rem 9%;
+    width: 100%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0, 0.1);
+}
+/*CONFIGURACOES final HEADER - bloco*/
+
+/*CONFIGURACOES HEADER - logo / icon  */
+header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+/*CONFIGURACOES final HEADER - logo / icon  */
+
+/*CONFIGURACOES HEADER - navbar  */
+header .navbar a{
+    font-size: 1.7rem;
+    margin: 2rem;
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+header .navbar a:hover{
+    color: var(--color-red);
+}
+/*CONFIGURACOES final HEADER - navbar  */
+
+
+/*CONFIGURACOES HEADER - #menu-bar (mobile)  */
+#menu-bar{
+    font-size: 3rem;
+    cursor: pointer;
+    color: var(--color-black);
+    border: .1rem solid var(--color-black);
+    border-radius: .3rem;
+    padding: .5rem 1.5rem;
+    display: none;
+}
+/*CONFIGURACOES final HEADER - #menu-bar (mobile)  */
+
+/*
+* REGRAS DO theme-toggler
+#theme-toggler{
+    position: absolute;
+    padding: 7px 14px;
+    font-size: 30px;
+    color: var(--primary-text-color);
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 1000;
+}
+#theme-toggler:hover{
+    background: rgb(255, 255, 255);
+}
+configuracao js*/
+
+
+
+

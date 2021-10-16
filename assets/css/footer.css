@@ -1,0 +1,83 @@
+/*
+* FOOTER
+*/
+
+.footer {
+    background: #333;
+    text-align: center; 
+}
+
+.footer .row{
+   width: 100%;
+   margin-left: 0;
+   padding: 1rem;   
+   flex-wrap: wrap;
+}
+.footer .row .col-md-3{
+    margin: 1rem 0;
+ }
+ .footer .row .col-md-3 h2{
+    font-size: 2.5rem;
+    color: #fff;
+    padding-bottom: 1rem;
+ }
+ .footer .row .col-md-3 p{
+    font-size: 1.5rem;
+    color: #ccc;
+ }
+
+ .footer .row .list{
+    display: flex;
+    flex-flow: column;
+ }
+ .footer .row .list a{
+    font-size: 1.7rem;
+    color: #ccc;
+    text-decoration: none;
+    padding-bottom: 1rem;
+ }
+ .footer .row .list a:hover{
+    color: blue;
+ }
+ .footer .row .letter p{
+     font-size: 2rem;
+ }
+ .footer .row .letter  input[type="email"]{
+    outline: none;
+    border: none;
+    background: none;
+    padding:0 1rem;
+    color: #fff;
+    height: 3rem;
+    width: 100%;
+    border: .1rem solid #fff;
+    font-size: 1.5rem;
+}
+.footer .row .letter  input[type="submit"]{
+    outline: none;
+    border: none;
+    background: blue;
+    margin: 1rem 0;
+    color: #fff;
+    height: 3rem;
+    width: 100%;
+    font-size: 1.5rem;
+}
+.footer .row .letter  input[type="submit"]:hover{
+    opacity: .8;
+}
+.footer .credit{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    padding:1rem 0;
+    margin: 1rem 0;
+    margin-bottom: 0;
+    border-top: .1rem solid #ccc;
+    letter-spacing: .2rem;
+}
+.footer .credit span{
+    color: rgb(255, 230, 0);
+    
+}

@@ -1,0 +1,40 @@
+.about{
+    min-height: 100vh;
+    color: var(--secondary-bg-color);
+}
+.about .image{
+    padding: 2rem;
+}
+.about .image img{
+    height: 45rem;
+    object-fit: cover;
+    box-shadow: 2.5rem 2.5rem 0 1rem var(--secondary-bg-color);
+}
+.about .info{
+    padding: 2rem;
+    margin-top: 3rem;
+}
+.about .row .info h2{
+    color: var(--secondary-bg-color);
+    font-size: 3.5rem;
+}
+.about .row .info p{
+    font-size: 2rem;
+    color: #444;
+    margin: 2rem 0;
+}
+.about .row .icons a{
+    font-size: 2rem;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    border-radius: .5rem;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+.about .row .icons a:hover{
+    background: var(--secondary-bg-color);
+}

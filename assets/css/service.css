@@ -1,0 +1,32 @@
+.service{
+    min-height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+.service .box-container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.service .box-container .box{
+    height: 25rem;
+    width: 25rem;
+    box-shadow: 0 .2rem .5rem rgba(0,0,0,0.3);
+    border-left: .5rem solid var(--secondary-bg-color);
+    
+    border-radius: .5rem;
+    text-align: center;
+    padding-top: 6rem;
+    margin: 2rem 3rem ;
+}
+.service .box-container .box .fas{
+    color: #333;
+    font-size: 3rem;
+    
+}
+.service .box-container .box p{
+    color: #333;
+    font-size: 1.2rem;
+    padding: 2rem 1rem;
+}

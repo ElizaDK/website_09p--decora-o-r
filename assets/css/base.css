@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,700;1,300&display=swap');
+
+/*CONFIGURACOES BASE*/
+
+*{
+    
+    font-family: 'Exo 2', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    
+}
+:root{
+    
+    --primary-bg-color:rgb(255, 255, 255);
+    --secondary-bg-color:rgb(36, 88, 199);
+    --primary-text-color:rgb(0, 0, 0);
+    --secondary-text-color:rgb(36, 35, 35);
+}
+/*configuracao do js para mudar de cor ao clicar */
+body.active{
+    --primary-bg-color:rgb(36, 35, 35);
+    --secondary-bg-color:rgb(0, 0, 0);
+    --primary-text-color:rgb(255, 255, 255);
+    --secondary-text-color:rgb(36, 88, 199);
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+section{
+    padding: 2rem 9%;
+}
+.heading{
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: .7rem;
+    color: #444;
+    margin: 2rem 0;
+    padding-top: 6rem;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: var(--secondary-bg-color);
+    text-underline-offset: -1.2rem;/*faz o underline subir*/
+}

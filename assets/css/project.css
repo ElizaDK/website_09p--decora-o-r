@@ -1,0 +1,28 @@
+.project{
+    min-width: 100vh;
+    background: #333;
+}
+.project .heading{
+    color:#fff;
+}
+.project .box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.project .box-container .box{
+    height: 20rem;
+    width: 30rem;
+    margin: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 .2rem .5rem #000;
+    overflow: hidden;
+}
+.project .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.project .box-container .box img:hover{
+    transform: scale(1.2);
+}
